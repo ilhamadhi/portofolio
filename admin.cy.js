@@ -9,6 +9,6 @@ describe('Admin', () => {
 
         cy.wait(3000)
         cy.get(':nth-child(1) > .oxd-main-menu-item > .oxd-text').click()
-        cy.get(':nth-child(2) > .oxd-input').type('ganesh {enter}')
+        cy.get(':nth-child(2) > .oxd-input').type('Cheeku {enter}')
     })
 })
